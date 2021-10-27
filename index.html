@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+
+<body>
+
+    <div id="pokedexIndex"></div>
+
+    <div class="dpNone" id="pokedex">
+        <div id="upperPart">
+            <div id="backToSelectSite"> <i class="far fa-times-circle"></i></div>
+            <h1 id="name"></h1>
+            <div id="pokemonTypes"></div>
+            <img id="pokemonImg" src="" alt="Bild Pokemon">
+        </div>
+
+        <div id="cardBody">
+
+            <ul id="menu">
+                <li id="liAbout"> About </li>
+                <li id="liStats"> Base-Stats </li>
+            </ul>
+
+            <div id="dataBox">
+
+                <div class="dataInnerBox" id="species">
+                    <p class="dataKey"> Species: </p>
+                    <p class="dataText" id="speciesValue"></p>
+                </div>
+                <div class="dataInnerBox" id="height">
+                    <p class="dataKey"> Height: </p>
+                    <p class="dataText" id="heightValue"></p>
+                </div>
+                <div class="dataInnerBox" id="weight">
+                    <p class="dataKey"> Weight: </p>
+                    <p class="dataText" id="weightValue"></p>
+                </div>
+                <div class="dataInnerBox" id="abilities">
+                    <p class="dataKey"> Abilities: </p>
+                    <p class="dataText" id="abilitiesValue"></p>
+                </div>
+            </div>
+
+            <div id="stats"></div>
+
+        </div>
+
+        <script src="https://kit.fontawesome.com/36c389de7e.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>

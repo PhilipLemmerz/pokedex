@@ -1,0 +1,37 @@
+@media screen and (max-width: 990px) {
+    .statItem p {
+        width: 5%;
+        font-size: 1rem;
+    }
+
+    .statItem {       
+        column-gap: 4rem;      
+    }
+
+    #type {
+        padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+        border: 5px;
+    }
+
+    #pokemonImg {
+        bottom: -5%;
+        width: 25%;
+    }
+
+    #upperPart, #cardBody {
+        width: 80%;
+    }
+
+    #pokemonNameIndex {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #pokemonImgIndex {
+        width: 5rem;
+    }
+    #pokemonNameIndex {
+        font-size: 1.1rem;
+    }
+}

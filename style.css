@@ -1,0 +1,180 @@
+body {
+    background-color: #e1eaee;
+    font-family: 'calibri', sans-serif;  
+}
+
+.dpNone {
+    display:none !important;
+}
+
+/* Pokemon Selection */
+
+#pokedexIndex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+card {
+    width: 30%;
+    height: 30vh;
+    background-color: #78d4b1b9;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#pokemonImgIndex {    
+    position: absolute;
+    width: 7rem; 
+    bottom: 20px;
+    right: 20px;   
+}
+
+
+/* Pokemon detail div */
+#pokedex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;            
+}
+
+#upperPart {
+    background-color: #78d4b1b9;
+    width: 50%;
+    padding: 2rem;
+    border-radius: 3rem 3rem 0 0;
+    position: relative;  
+    display: flex;
+    flex-direction: column;   
+}
+
+#backToSelectSite {
+    align-self: flex-end;
+    font-size: 2rem;
+    color: white;
+}
+
+#backToSelectSite:hover {
+    cursor: pointer;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+#pokemonTypes {
+    display: flex;
+    column-gap: 2rem;
+    padding-bottom: 20%;
+}
+
+#type {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgba(245, 245, 245, 0.4);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;    
+}
+
+#pokemonImg {
+    position: absolute;
+    width: 15%;    
+    z-index: 3;
+    bottom: 10%;  
+    align-self: center;  
+}
+
+#cardBody {
+    padding: 2rem;
+    background-color: white;
+    width: 50%;
+    border-radius: 2rem 2rem 2rem 2rem;
+    margin-top: -5%;  
+    z-index: 2; 
+    min-height: 430px; 
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    font-size: 1.5rem;
+    column-gap: 2rem;
+    padding: 0;
+    margin: 0.2rem;
+}
+
+#liStats {
+    border-bottom: 2px solid transparent;
+    padding-bottom: 1rem;
+}
+
+#liAbout {
+    padding-bottom: 1rem;
+    border-bottom: solid 2px #78d4b1b9;
+}
+
+li:hover {
+    cursor: pointer;
+    border-bottom: solid 2px #78d4b1b9;
+}
+
+.dataKey {
+    color: darkgray;
+    font-size: 1.2rem;
+    padding-right: 5vw;
+}
+
+.dataInnerBox {
+    display: flex;
+    align-items: center;
+}
+
+.dataText {
+    font-size: 1.2rem;
+}
+
+#stats {
+    display: none;    
+}
+
+.statItem {
+    display: flex;
+    column-gap: 5rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.statItem p {
+    width: 15%;
+    font-size: 1.2rem;
+}
+
+.statBackground {
+    width: 50%;
+    height: 0.5rem;
+    background-color: darkgray;
+    border-radius: 5px;    
+}
+
+.bar{
+    height: 0.5rem;
+    background-color: rgb(243, 54, 54);
+    border-radius: 5px;    
+}
+
+.statName {
+    color: darkgray;
+}
